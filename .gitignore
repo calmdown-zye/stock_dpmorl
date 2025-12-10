@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# 가상환경
+.venv/
+venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / 에디터
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+EOF
