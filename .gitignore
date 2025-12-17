@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cat > .gitignore << 'EOF'
 # 가상환경
 .venv/
@@ -15,3 +16,10 @@ __pycache__/
 # OS
 .DS_Store
 EOF
+=======
+__pycache__
+experiments/
+# Python cache
+__pycache__/
+*.pyc
+>>>>>>> a63119b (Update utility functions and ignore python cache)
